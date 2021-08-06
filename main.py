@@ -11,7 +11,7 @@ PASSWORD = "admin0629"  # 密码
 # Telegram Bot Push https://core.telegram.org/bots/api#authorizing-your-bot
 TG_BOT_TOKEN = '1409395939:AAHzpsGwedDZSXqtNv1RdN0-CgOybcX7et0'  # 通过 @BotFather 申请获得，示例：1077xxx4424:AAFjv0FcqxxxxxxgEMGfi22B4yh15R5uw
 TG_USER_ID = '954966717'  # 用户、群组或频道 ID，示例：129xxx206
-TG_API_HOST = ''  # 自建 API 反代地址，供网络环境无法访问时使用，网络正常则保持默认
+TG_API_HOST = 'api.telegram.org'  # 自建 API 反代地址，供网络环境无法访问时使用，网络正常则保持默认
 
 # Server酱 http://sc.ftqq.com/?c=code
 SCKEY = ''  # 这里填Server酱的key，无需推送可不填 示例: SCU646xxxxxxxxdacd6a5dc3f6
