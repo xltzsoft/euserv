@@ -5,8 +5,8 @@ import requests
 from bs4 import BeautifulSoup
 
 # 多个账户请使用空格隔开
-USERNAME = "13184058"  # 用户名或邮箱
-PASSWORD = "admin0629"  # 密码
+USERNAME = os.environ["USERNAME"]
+PASSWORD = os.environ["PASSWORD"]
 
 # Telegram Bot Push https://core.telegram.org/bots/api#authorizing-your-bot
 TG_BOT_TOKEN = '1409395939:AAHzpsGwedDZSXqtNv1RdN0-CgOybcX7et0'  # 通过 @BotFather 申请获得，示例：1077xxx4424:AAFjv0FcqxxxxxxgEMGfi22B4yh15R5uw
